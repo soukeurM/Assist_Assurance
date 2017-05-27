@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fella.tdm1_project">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TypesAccident"></activity>
+        <activity android:name=".DeclarerSinistre"></activity>
+        <activity android:name=".Infos_Pers_Activity"></activity>
+        <activity android:name=".Circonstance_Activity"></activity>
+        <activity android:name=".DetailsAccident"></activity>
+        <activity android:name=".Profile_activity"></activity>
+        <activity android:name=".NumeroUrgence"></activity>
+        <activity android:name=".liste_vehicule_activity"></activity>
+        <activity android:name=".Vehiclue_Activity"></activity>
+        <activity android:name=".Partie1Declaration"></activity>
+        <activity android:name=".PersonneTiersActivity"></activity>
+        <activity android:name=".DegatsApparents"></activity>
+        <activity android:name=".Description_Accident"></activity>
+
+    </application>
+
+</manifest>

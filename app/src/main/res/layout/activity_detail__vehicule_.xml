@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6"
+        android:layout_marginTop="16dp"
+        app:layout_constraintVertical_bias="0.33">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_NumContrat"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:layout_marginEnd="16dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/NumContrat"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numéro de poilice du contrat"
+                android:inputType="number"
+                />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="14"
+
+            android:layout_marginEnd="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp">
+
+            <android.support.design.widget.TextInputLayout
+
+                android:id="@+id/input_layout_matricule1"
+                android:layout_width="0dp"
+                android:textColorHint="@color/colorAccent"
+
+                android:layout_height="match_parent"
+                android:layout_weight="9">
+
+                <EditText
+                    android:id="@+id/NumV1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:layout_marginRight="10dp"
+                    android:hint="N° d'immatriculation"
+                    android:maxLength="4"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+
+                android:id="@+id/input_layout_matricule2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <EditText
+                    android:id="@+id/NumV2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+
+                    android:maxLength="3"
+                    android:layout_marginRight="10dp"
+                    android:gravity="center"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+
+                android:id="@+id/input_layout_matricule3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                >
+
+                <EditText
+                    android:id="@+id/NumV3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:gravity="center"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_MarqueV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:layout_marginEnd="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:textColorHint="@color/colorAccent"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/MarqueV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Marque" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_ModeleV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            android:layout_marginEnd="16dp"
+
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/ModeleV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Modèle" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Modifier"
+                android:id="@+id/validerModif"
+                android:background="@drawable/custombutton"
+                android:textColor="@color/blancG"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                android:onClick="ReponseAjout"
+                />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

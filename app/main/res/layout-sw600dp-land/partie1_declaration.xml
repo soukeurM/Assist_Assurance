@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <ImageView
+        android:background="@drawable/moins_flou"
+        android:alpha="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="19"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Liste des voitures"
+                android:textColor="@color/grisTransparent"
+                android:textSize="28sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:id="@+id/list_voiture"></ListView>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:weightSum="10"
+            android:id="@+id/details">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Détails de la voiture"
+                android:textColor="@color/grisTransparent"
+                android:textSize="28sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        <fragment class="com.example.fella.tdm1_project.Partie1Fragment"
+            android:id="@+id/info_perso"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            tools:layout="@layout/fragment_partie1_declaration"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:background="@color/gris"
+        android:layout_height="40dp">
+
+
+
+        <Button
+            android:text="Suivant"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/butSuiv1"
+            android:layout_margin="0dp"
+            android:background="@drawable/custombutton"
+            android:onClick="chargerActivity"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</FrameLayout>

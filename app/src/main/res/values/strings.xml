@@ -1,0 +1,45 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Assist Assurance</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send">Envoyer</string>
+    <string name="not_connected">Vous n êtes pas connecté à un périphérique</string>
+    <string name="bt_not_enabled_leaving">Bluetooth n a pas été activé.</string>
+    <string name="title_connecting">connexion en cours...</string>
+    <string name="title_connected_to">connecté à <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">non connecté</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">recherche des périphériques...</string>
+    <string name="select_device">sélectionner un périphérique pour se connecter</string>
+    <string name="none_paired">Aucun périphérique n a été appairé</string>
+    <string name="none_found">Aucun périphérique trouvé</string>
+    <string name="title_paired_devices">Périphériques appairés</string>
+    <string name="title_other_devices">Apareils disponibles</string>
+    <string name="button_scan">Analyse des périphériques</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <string name="title_activity_login">Connexion</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Nom utilisateur</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="error_invalid_password">mot de passe invalide</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="action_sign_in_short">Connexion</string>
+    <string name="error_invalid_email">nom utilisateur invalide</string>
+    <string name="error_incorrect_password">mot de passe incorrect</string>
+    <string name="error_field_required">Champs obligatoire</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_maps">Position des sites d expertise</string>
+    <string name="title_activity_map2">Map</string>
+</resources>
+
+

@@ -1,0 +1,964 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fella.tdm1_project.Circonstance_Activity">
+    >
+
+    <ImageView
+        android:background="@drawable/moins_flou"
+        android:alpha="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="33"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/gris">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:text=" A"
+                android:layout_height="match_parent"
+                android:id="@+id/partie1"
+                android:textSize="26sp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:id="@+id/textViewTItre"
+                android:gravity="center"
+                />
+
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:text=" B"
+                android:layout_height="match_parent"
+                android:id="@+id/partie2"
+                android:layout_weight="1"
+                android:textSize="26sp"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="29"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1500dp"
+                android:orientation="vertical"
+                android:weightSum="27"
+                >
+
+
+                <LinearLayout
+
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp">
+
+
+
+                    <RadioGroup
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        >
+
+
+                        <RadioButton android:id="@+id/C11"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+
+                            android:buttonTint="@color/blancG"/>
+
+                        <RadioButton android:id="@+id/C21"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="En stationnement"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/textView1"
+                            android:layout_weight="1"
+                            android:gravity="center"                    android:textColor="@color/blancG"/>
+
+                        <TextView
+                            android:text="A l'arrêt"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/textView2"
+                            android:layout_weight="1"
+                            android:gravity="center"                    android:textColor="@color/blancG"/>
+
+                    </LinearLayout>
+
+
+                    <RadioGroup
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <RadioButton android:id="@+id/C12"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                        <RadioButton android:id="@+id/C22"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+                    <RadioGroup
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="vertical">
+
+
+                        <RadioButton android:id="@+id/C31"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                        <RadioButton android:id="@+id/C41"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="Quittait un stationnement"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/textView3"
+                            android:layout_weight="1"
+                            android:gravity="center"                     android:textColor="@color/blancG"/>
+
+                        <TextView
+                            android:text="Ouvrait une portière"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/textView4"
+                            android:layout_weight="1"
+                            android:gravity="center"                     android:textColor="@color/blancG"/>
+
+                    </LinearLayout>
+
+
+                    <RadioGroup
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <RadioButton android:id="@+id/C32"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                        <RadioButton android:id="@+id/C42"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox1"
+                        android:layout_weight="1"                     android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Prenait un stationnement"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView5"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox2"
+                        android:layout_weight="1"                     android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox3"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Sortait d'un parking, d'un lieu privé, un chemin de terre"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView6"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox4"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox34"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="S'engageait dans un parking, un lieu privé, un
+            chemin de terre"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView7"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox5"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox6"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="S'engageait sur une plae à sens gératoire"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView8"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox7"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox8"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Roulait sur une place à sens giratoire"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView9"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox10"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox11"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Heurait à l'arrière, en roulant dans le même
+             sens et sur une même file"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView10"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox12"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox13"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Roulait dans le même sens et sur une file
+            diférente"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView11"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox14"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox15"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Changeait de file"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView12"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox16"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox17"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Doublait"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView13"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox18"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox19"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Virait à droite"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView14"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox20"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox21"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Virait à gauche"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView15"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox22"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox23"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Reculait"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView16"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox24"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox25"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Empiétait sur une voie réservée à
+la circulation en sens inverse"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView18"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox26"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox27"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Venait de droite (dans un carrefour)"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView19"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox28"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="10dp"
+                    >
+
+                    <RadioGroup
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="2"
+                        android:orientation="vertical">
+
+
+                        <RadioButton android:id="@+id/C51"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                        <RadioButton android:id="@+id/C61"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:text="N'avait pas observé un signal de priorité"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/textView21"
+                            android:layout_weight="1"
+                            android:gravity="center"                    android:textColor="@color/blancG"/>
+
+                        <TextView
+                            android:text="N'avait pas observé un feu rouge"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:id="@+id/textView22"
+                            android:layout_weight="1"
+                            android:gravity="center"                    android:textColor="@color/blancG"/>
+
+                    </LinearLayout>
+
+
+                    <RadioGroup
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <RadioButton android:id="@+id/C52"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                        <RadioButton android:id="@+id/C62"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:buttonTint="@color/blancG"/>
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:weightSum="10"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:background="@color/grisTransparent"
+                    android:layout_marginBottom="20dp">
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox29"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+                    <TextView
+                        android:text="Ma situation ne correspond à aucune des propositions"
+                        android:layout_height="match_parent"
+                        android:layout_width="0dp"
+                        android:layout_weight="8"
+                        android:id="@+id/textView20"
+                        android:gravity="center"                     android:textColor="@color/blancG"/>
+
+
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/checkBox30"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"                    android:buttonTint="@color/blancG"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:background="@color/gris"
+            android:layout_height="40dp">
+
+
+
+            <Button
+                android:text="Suivant"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:id="@+id/butSuiv3"
+                android:layout_margin="0dp"
+                android:background="@drawable/custombutton"
+                android:onClick="chargerActivity"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

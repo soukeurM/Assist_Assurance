@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/geofenc"
+        android:icon="@drawable/refresh"
+        android:title="Mettre à jour les sites"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/clear"
+        android:icon="@drawable/voiture"
+        android:title="Désactiver les notifications"
+        app:showAsAction="never"/>
+
+</menu>

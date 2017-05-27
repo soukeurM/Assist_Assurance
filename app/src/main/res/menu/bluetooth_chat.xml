@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/get_info"
+        android:icon="@drawable/ic_action_info"
+        app:showAsAction="always"
+        android:title="Envoyer mes  informations"/>
+
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:icon="@drawable/ic_action_bluetooth"
+        app:showAsAction="always"
+        android:title="secure_connect"/>
+
+    <item
+        android:id="@+id/insecure_connect_scan"
+        app:showAsAction="never"
+        android:title="insecure_connect"/>
+
+    <item
+        android:id="@+id/discoverable"
+        app:showAsAction="never"
+        android:title="discoverable"/>
+
+
+
+</menu>
